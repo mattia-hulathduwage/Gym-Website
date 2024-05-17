@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CrossFit</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="" id="logo">Cross<span>Fit</span></a>
+
+        <nav class="navbar">
+
+            <a href="" id="logo2">Cross<span>Fit</span></a>
+
+            <a href="index.html">home</a>
+            <a href="info.html">about</a>
+            <a href="gallery.html">gallery</a>
+            <a href="facilities.html">facilities</a>
+            <a href="classes.html">programmes</a>
+            <a href="join.html">join now</a>
+        </nav>
+
+        <div class="icons">
+            <div id="search-form" class="fas fa-user"></div>
+            <div id="menu-bars" class="fas fa-bars"></div>
+        </div>
+
+
+        <div class="form-search">
+            <input type="search" placeholder="search here">
+        </div>
+
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <!-- contact us -->
+
+<div class="main-contact">
+
+    <div class="main-inner-contact">
+        <div class="inner-contact">
+            <div class="contact-content">
+                <h2><span>Join</span> us</h2>
+                <form name="Join_now" method="post" onsubmit = "return validate()" action="doinsert.php">
+                    <center><input type="text" id="name" name="name" placeholder="Your name" ></center>
+                <center><span id="name-error" class="errors"></span><br></center>
+                
+                  <center><input type="text" placeholder="Email address" id="email" name="email" ></center>
+                <center><span id="email-error" class="errors"></span><br></center>
+                
+                  <center><input type="text" placeholder="Phone number" id="phone" name="phone" ></center>
+                <center><span id="phone-error" class="errors"></span><br></center>
+                    
+                  <center><textarea placeholder="Your message" cols="132" rows="5" name="subject" id="subject"></textarea></center>
+                <center><span id="subject-error" class="errors"></span><br></center>
+                
+                  <center><button type="submit" value="Submit" name="submit">Submit</button></center>
+                  </form>
+           
+            </div>
+            </div>
+        <div class="inner-contact">
+
+            <div class="contact-im">
+                <img src="images/contact.png" alt="">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>    
+</body>
+</html>
